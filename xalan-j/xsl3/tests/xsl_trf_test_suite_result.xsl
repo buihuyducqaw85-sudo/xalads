@@ -4,7 +4,9 @@
                 exclude-result-prefixes="xs"
                 version="3.0">
 
-   <!-- Author: Mukul Gandhi <mukulg@apache.org> -->   
+   <!-- Author: Mukul Gandhi <mukulg@apache.org> -->
+
+   <!-- Last modified : 2025-04-01 -->   
                 
    <xsl:output method="html"/>
    
@@ -20,7 +22,7 @@
 		   <xsl:variable name="errors" select="@errors" as="xs:integer"/>
 		   <table align="center">		      			  
 		      <tr align="center">
-			    <td><b>Report generation local time : </b><xsl:value-of select="current-dateTime()"/></td>				
+			    <td>Report generation time : <xsl:value-of select="current-dateTime()"/></td>				
 			  </tr>
 			  <tr>
 			     <td>&#160;</td>
@@ -78,7 +80,7 @@
       * or more contributor license agreements. See the NOTICE file
       * distributed with this work for additional information
       * regarding copyright ownership. The ASF licenses this file
-      * to you under the Apache License, Version 2.0 (the  "License");
+      * to you under the Apache License, Version 2.0 (the "License");
       * you may not use this file except in compliance with the License.
       * You may obtain a copy of the License at
       *
