@@ -13,7 +13,7 @@
    <xsl:template match="/testrun">
       <html>
         <head>
-          <title>W3C XSL 3 transformations test suite result</title>
+          <title>Xalan-J XSL 3 transformations test suite result</title>
         </head>
         <body>           
 		   <br/><h3 style="text-align: center; color: green;">Apache Xalan-J's XSL 3 transformations test suite result</h3><br/>
@@ -22,13 +22,13 @@
 		   <xsl:variable name="errors" select="@errors" as="xs:integer"/>
 		   <table align="center">		      			  
 		      <tr align="center">
-			    <td>Report generation time : <xsl:value-of select="current-dateTime()"/></td>				
+			    <td>Modified timestamp : <xsl:value-of select="current-dateTime()"/></td>				
 			  </tr>
 			  <tr>
 			     <td>&#160;</td>
 			  </tr>
 			  <tr align="center">
-				<td><b>No. of tests : </b><xsl:value-of select="$tests"/>, <b>Tests failure count : </b><xsl:value-of select="$failures"/>, <b>Tests error count : </b><xsl:value-of select="$errors"/></td>
+				<td>No. of tests : <xsl:value-of select="$tests"/>, Tests failure count : <xsl:value-of select="$failures"/>, Tests error count : <xsl:value-of select="$errors"/></td>
 			  </tr>
 			  <tr>
 			     <td>&#160;</td>
