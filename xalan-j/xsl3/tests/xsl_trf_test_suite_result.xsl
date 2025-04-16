@@ -16,13 +16,13 @@
           <title>Xalan-J XSL 3 transformations test suite result</title>
         </head>
         <body>           
-		   <br/><h3 style="text-align: center; color: green;">Apache Xalan-J's XSL 3 transformations test suite result</h3><br/>
+		   <br/><h3 style="text-align: center; color: green;">Apache Xalan-J XSL 3 transformations test suite result</h3><br/>
 		   <xsl:variable name="tests" select="@tests" as="xs:integer"/>
 		   <xsl:variable name="failures" select="@failures" as="xs:integer"/>
 		   <xsl:variable name="errors" select="@errors" as="xs:integer"/>
 		   <table align="center">		      			  
 		      <tr align="center">
-			    <td>Modified timestamp : <xsl:value-of select="current-dateTime()"/></td>				
+			    <td>Last modified : <xsl:value-of select="current-dateTime()"/></td>				
 			  </tr>
 			  <tr>
 			     <td>&#160;</td>
