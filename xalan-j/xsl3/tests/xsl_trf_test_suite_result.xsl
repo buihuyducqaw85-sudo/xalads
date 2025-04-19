@@ -6,7 +6,7 @@
 
    <!-- Author: Mukul Gandhi <mukulg@apache.org> -->
 
-   <!-- Last modified : 2025-04-01 -->   
+   <!-- Last modified : 2025-04-19 -->   
                 
    <xsl:output method="html"/>
    
@@ -22,7 +22,7 @@
 		   <xsl:variable name="errors" select="@errors" as="xs:integer"/>
 		   <table align="center">		      			  
 		      <tr align="center">
-			    <td>Last modified : <xsl:value-of select="current-dateTime()"/></td>				
+			    <td>Last modified : <xsl:value-of select="substring(string(current-dateTime()), 1, 10)"/></td>				
 			  </tr>
 			  <tr>
 			     <td>&#160;</td>
@@ -34,7 +34,7 @@
 			     <td>&#160;</td>
 			  </tr>
 			  <tr align="center">
-			     <td><b>Xalan-J XSL 3 implementation status document : </b><a href="https://xalan.apache.org/xalan-j/xsl3/xalanj_xslt3.0_implementation_status.pdf">https://xalan.apache.org/xalan-j/xsl3/xalanj_xslt3.0_implementation_status.pdf</a></td>
+			     <td>Xalan-J XSL 3 implementation status document : <a href="https://xalan.apache.org/xalan-j/xsl3/xalanj_xslt3.0_implementation_status.pdf">https://xalan.apache.org/xalan-j/xsl3/xalanj_xslt3.0_implementation_status.pdf</a></td>
 			  </tr>
 		   </table>
 		   <br/><br/>
