@@ -1,5 +1,4 @@
 org.apache.xalan
-org.apache.xalan.client
 org.apache.xalan.extensions
 org.apache.xalan.lib
 org.apache.xalan.lib.sql
