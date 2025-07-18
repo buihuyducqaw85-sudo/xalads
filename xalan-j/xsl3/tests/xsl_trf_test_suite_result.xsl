@@ -6,7 +6,7 @@
 
    <!-- Author: Mukul Gandhi <mukulg@apache.org> -->
 
-   <!-- Last modified : 2025-04-19 -->   
+   <!-- Last modified : 2025-07-18 -->   
                 
    <xsl:output method="html"/>
    
@@ -16,7 +16,7 @@
           <title>Xalan-J XSL 3 transformations test suite result</title>
         </head>
         <body>           
-		   <br/><h3 style="text-align: center; color: green;">Apache Xalan-J XSL 3 transformations test suite result</h3><br/>
+		   <br/><h3 style="text-align: center; color: #52575e;">Apache Xalan-J XSL 3 transformations test suite result</h3><br/>
 		   <xsl:variable name="tests" select="@tests" as="xs:integer"/>
 		   <xsl:variable name="failures" select="@failures" as="xs:integer"/>
 		   <xsl:variable name="errors" select="@errors" as="xs:integer"/>
